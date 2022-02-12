@@ -1,0 +1,40 @@
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: orange;
+}
+
+  .navbar-default {
+    background-color: orange;
+    border-color: orange;
+}
+.navbar-brand {
+  padding: 0px;
+  color: white;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: orange;
+   text-decoration: none;
+  background-color: orange;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: white; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
